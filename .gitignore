@@ -1,0 +1,36 @@
+# Credentials and private configuration
+.env
+.env.*
+!.env.example
+secrets/
+private/
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+credentials*.json
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local logs and account exports
+*.log
+logs/
+account_exports/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
+
+# Unreadable local files: preserve locally, exclude from commits
+/Data Analysis/2024-12-03 US.QQQ241203C515000.csv
+/Data Analysis/2024-12-17 rescue.csv
+/Data Analysis/QQQ241204CP520000 Lite.csv
